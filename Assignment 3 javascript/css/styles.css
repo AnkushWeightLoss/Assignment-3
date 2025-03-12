@@ -1,0 +1,175 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.light-theme {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+/* Header & Navigation */
+header {
+    background-color: #35424a;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #e8491d;
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #35424a;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.radio-group {
+    margin: 5px 0;
+}
+
+.radio-group input {
+    margin-right: 10px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #35424a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e8491d;
+}
+
+/* Output Section */
+#output {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #f9f9f9;
+    min-height: 100px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background: #35424a;
+    color: white;
+}
+
+/* Excel Page Specific */
+.excel-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.theme-switcher {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Dark Theme Adjustments */
+.dark-theme main {
+    background: #444;
+    color: #f4f4f4;
+}
+
+.dark-theme h1 {
+    color: #f4f4f4;
+}
+
+.dark-theme input[type="text"],
+.dark-theme input[type="email"] {
+    background: #555;
+    color: #f4f4f4;
+    border: 1px solid #777;
+}
+
+.dark-theme #output {
+    background: #555;
+    border: 1px solid #777;
+    color: #f4f4f4;
+}
+
+.dark-theme button {
+    background: #555;
+}
+
+.dark-theme button:hover {
+    background: #e8491d;
+}
